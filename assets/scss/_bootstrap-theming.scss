@@ -46,9 +46,7 @@
 
 
 
-// .navbar-nav>li {
-//     margin: 5px;
-// }
+
 
 .navbar-left {
     @include sm-min {
@@ -68,6 +66,29 @@
         li {
             margin: 5px 0px 5px 5px;
         }
+    }
+}
+
+.panel {
+    border: none;
+    background-color: lighten($color-gray, 8%);
+    margin-bottom: $gap * 2;
+    
+    &-info>.panel-heading {
+        color: $color-light;
+        background-color: $color-accent;
+        border: none;
+    }
+
+    &-title {
+        font-size: 1.2rem;
+        letter-spacing: 0.1em;
+    }
+
+
+    &-body {
+       border: 1px solid $color-gray;
+       border-radius: 0 0 4px 4px;
     }
 }
 
