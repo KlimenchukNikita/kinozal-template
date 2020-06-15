@@ -177,6 +177,63 @@ a:hover, a:focus {
   border-color: #df8a13;
 }
 
+.top-films-body {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.top-films-list {
+  margin-bottom: 0px;
+}
+
+.top-films-list a {
+  color: #165690;
+}
+
+.top-films-list__link {
+  background-color: transparent;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-top: 1px solid #dddddd;
+  -webkit-transition: background-color 0s;
+  -o-transition: background-color 0s;
+  transition: background-color 0s;
+  margin-left: -1px;
+  margin-right: -1px;
+  padding: 10px 50px 10px 15px;
+}
+
+.top-films-list__link:first-child {
+  border-radius: 0px;
+  border-top: none;
+}
+
+.top-films-list__link:last-child {
+  border-radius: 0px;
+}
+
+.top-films-list__link:hover, .top-films-list__link:focus {
+  background-color: #df8a13 !important;
+  -webkit-transition: background-color 0s;
+  -o-transition: background-color 0s;
+  transition: background-color 0s;
+  color: #ffffff !important;
+}
+
+.top-films-list__link:hover .badge, .top-films-list__link:focus .badge {
+  background-color: #232323;
+}
+
+.top-films-list__badge {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
 @media (min-width: 576px) {
   .header-logo__title {
     font-size: 3.5rem;
