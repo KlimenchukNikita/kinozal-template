@@ -251,15 +251,15 @@ strong {
   border-radius: 4px 4px 0 0;
 }
 
+.film-info {
+  font-size: 1.2em;
+}
+
 .film-info__well {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-color: #dddddd;
   background-color: #f1f1f1;
-}
-
-.film-info {
-  font-size: 1.2em;
 }
 
 .film-info__wrapper {
@@ -272,6 +272,14 @@ strong {
 
 .film-info__badge {
   font-size: 0.8em;
+}
+
+.film-description__well {
+  background-color: #f1f1f1;
+}
+
+.film-send-comment__button {
+  float: right;
 }
 
 .vertical-slider {
