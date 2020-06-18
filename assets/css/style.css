@@ -126,6 +126,10 @@ h2::after {
   border-bottom: 3px solid rgba(223, 138, 19, 0.7);
 }
 
+strong {
+  font-weight: 700;
+}
+
 .header-logo {
   padding: 100px 0;
   text-align: center;
@@ -366,6 +370,34 @@ h2::after {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+.footer {
+  padding-top: 45px;
+  color: #fbfbfb;
+  background-color: #232323;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.footer a {
+  color: #777777;
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
+
+.footer-fifth {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.footer-fifth a {
+  color: #ffffff;
 }
 
 @media (min-width: 576px) {
